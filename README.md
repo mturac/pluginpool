@@ -1,3 +1,5 @@
+![pluginpool — ten focused Claude Code plugins](./assets/hero.svg)
+
 # pluginpool
 
 **Ten focused Claude Code plugins for everyday developer productivity.**

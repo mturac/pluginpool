@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620" role="img" aria-label="pluginpool — ten focused Claude Code plugins">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#f78166"/>
+      <stop offset="20%" stop-color="#56d364"/>
+      <stop offset="40%" stop-color="#d29922"/>
+      <stop offset="60%" stop-color="#f85149"/>
+      <stop offset="80%" stop-color="#db61a2"/>
+      <stop offset="100%" stop-color="#79c0ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="620" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="4" fill="url(#bar)"/>
+  <text x="60" y="80" font-family="ui-sans-serif,system-ui,sans-serif" font-size="56" font-weight="800" fill="#e6edf3" letter-spacing="-1.5">pluginpool</text>
+  <text x="60" y="112" font-family="ui-sans-serif,system-ui,sans-serif" font-size="18" fill="#8b949e">Ten focused Claude Code plugins for everyday developer productivity.</text>
+
+  <rect x="60" y="130" width="380" height="56" rx="10" fill="#161b22" stroke="#f78166" stroke-width="1.2"/>
+  <text x="76" y="152" font-family="ui-sans-serif,system-ui,sans-serif" font-size="15" font-weight="700" fill="#e6edf3">commit-narrator</text>
+  <text x="76" y="172" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" fill="#8b949e">Commit messages that say *why*, not just *what*.</text>
+
+  <rect x="470" y="130" width="380" height="56" rx="10" fill="#161b22" stroke="#56d364" stroke-width="1.2"/>
+  <text x="486" y="152" font-family="ui-sans-serif,system-ui,sans-serif" font-size="15" font-weight="700" fill="#e6edf3">pr-storyteller</text>
+  <text x="486" y="172" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" fill="#8b949e">PR title + body + test plan, drafted from your diff.</text>
+
+  <rect x="60" y="200" width="380" height="56" rx="10" fill="#161b22" stroke="#d29922" stroke-width="1.2"/>
+  <text x="76" y="222" font-family="ui-sans-serif,system-ui,sans-serif" font-size="15" font-weight="700" fill="#e6edf3">test-gap</text>
+  <text x="76" y="242" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" fill="#8b949e">Lines you just changed that lack test coverage.</text>
+
+  <rect x="470" y="200" width="380" height="56" rx="10" fill="#161b22" stroke="#f85149" stroke-width="1.2"/>
+  <text x="486" y="222" font-family="ui-sans-serif,system-ui,sans-serif" font-size="15" font-weight="700" fill="#e6edf3">deps-doctor</text>
+  <text x="486" y="242" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" fill="#8b949e">One report across npm, pip, cargo, go.</text>
+
+  <rect x="60" y="270" width="380" height="56" rx="10" fill="#161b22" stroke="#7c3aed" stroke-width="1.2"/>
+  <text x="76" y="292" font-family="ui-sans-serif,system-ui,sans-serif" font-size="15" font-weight="700" fill="#e6edf3">env-lint</text>
+  <text x="76" y="312" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" fill="#8b949e">.env vs .env.example parity — values never logged.</text>
+
+  <rect x="470" y="270" width="380" height="56" rx="10" fill="#161b22" stroke="#db61a2" stroke-width="1.2"/>
+  <text x="486" y="292" font-family="ui-sans-serif,system-ui,sans-serif" font-size="15" font-weight="700" fill="#e6edf3">secret-guard</text>
+  <text x="486" y="312" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" fill="#8b949e">Block leaked keys before they hit origin. Redacted.</text>
+
+  <rect x="60" y="340" width="380" height="56" rx="10" fill="#161b22" stroke="#79c0ff" stroke-width="1.2"/>
+  <text x="76" y="362" font-family="ui-sans-serif,system-ui,sans-serif" font-size="15" font-weight="700" fill="#e6edf3">standup-gen</text>
+  <text x="76" y="382" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" fill="#8b949e">Standup notes from git activity. Multi-repo.</text>
+
+  <rect x="470" y="340" width="380" height="56" rx="10" fill="#161b22" stroke="#ffa657" stroke-width="1.2"/>
+  <text x="486" y="362" font-family="ui-sans-serif,system-ui,sans-serif" font-size="15" font-weight="700" fill="#e6edf3">todo-harvest</text>
+  <text x="486" y="382" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" fill="#8b949e">TODOs with git-blame author and age in days.</text>
+
+  <rect x="60" y="410" width="380" height="56" rx="10" fill="#161b22" stroke="#ff7b72" stroke-width="1.2"/>
+  <text x="76" y="432" font-family="ui-sans-serif,system-ui,sans-serif" font-size="15" font-weight="700" fill="#e6edf3">flaky-detector</text>
+  <text x="76" y="452" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" fill="#8b949e">Run a test N times. See which ones don't agree.</text>
+
+  <rect x="470" y="410" width="380" height="56" rx="10" fill="#161b22" stroke="#a5a5f6" stroke-width="1.2"/>
+  <text x="486" y="432" font-family="ui-sans-serif,system-ui,sans-serif" font-size="15" font-weight="700" fill="#e6edf3">changelog-forge</text>
+  <text x="486" y="452" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" fill="#8b949e">Conventional commits → CHANGELOG + semver bump.</text>
+
+  <text x="60" y="595" font-family="ui-monospace,monospace" font-size="12" fill="#6e7681">89 hermetic tests · Python 3 stdlib only · MIT · github.com/mturac/pluginpool</text>
+</svg>
