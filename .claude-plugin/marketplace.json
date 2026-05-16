@@ -1,0 +1,125 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "pluginpool",
+  "description": "Ten focused Claude Code plugins for everyday developer productivity. Deterministic Python helpers wrapped as slash commands — 89 hermetic tests, stdlib only at runtime.",
+  "owner": {
+    "name": "Mehmet Turac",
+    "url": "https://github.com/mturac"
+  },
+  "metadata": {
+    "version": "0.1.0",
+    "homepage": "https://github.com/mturac/pluginpool"
+  },
+  "plugins": [
+    {
+      "name": "commit-narrator",
+      "description": "Generate conventional commit messages from staged diffs, including the *why*.",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "mturac/pluginpool-commit-narrator"
+      },
+      "category": "git-workflow",
+      "license": "MIT"
+    },
+    {
+      "name": "pr-storyteller",
+      "description": "Generate PR title, body, and test plan from commits and diff vs base branch.",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "mturac/pluginpool-pr-storyteller"
+      },
+      "category": "git-workflow",
+      "license": "MIT"
+    },
+    {
+      "name": "test-gap",
+      "description": "Find lines in your diff lacking test coverage (Cobertura / lcov / coverage.json).",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "mturac/pluginpool-test-gap"
+      },
+      "category": "code-quality-testing",
+      "license": "MIT"
+    },
+    {
+      "name": "deps-doctor",
+      "description": "Multi-ecosystem dependency audit (npm, pip, cargo, go) — one unified report.",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "mturac/pluginpool-deps-doctor"
+      },
+      "category": "security",
+      "license": "MIT"
+    },
+    {
+      "name": "env-lint",
+      "description": "Compare .env vs .env.example key parity — never prints values.",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "mturac/pluginpool-env-lint"
+      },
+      "category": "code-quality-testing",
+      "license": "MIT"
+    },
+    {
+      "name": "secret-guard",
+      "description": "Pre-commit secret scanner using pattern and entropy detection, with redacted output.",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "mturac/pluginpool-secret-guard"
+      },
+      "category": "security",
+      "license": "MIT"
+    },
+    {
+      "name": "standup-gen",
+      "description": "Generate daily standup notes from git activity across one or many repos.",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "mturac/pluginpool-standup-gen"
+      },
+      "category": "productivity",
+      "license": "MIT"
+    },
+    {
+      "name": "todo-harvest",
+      "description": "Scan for TODO/FIXME/HACK comments with git blame author and age.",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "mturac/pluginpool-todo-harvest"
+      },
+      "category": "code-quality-testing",
+      "license": "MIT"
+    },
+    {
+      "name": "flaky-detector",
+      "description": "Run a test command N times and report per-test flakiness percentage.",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "mturac/pluginpool-flaky-detector"
+      },
+      "category": "code-quality-testing",
+      "license": "MIT"
+    },
+    {
+      "name": "changelog-forge",
+      "description": "Convert conventional commits into a CHANGELOG section with a semver bump suggestion.",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "mturac/pluginpool-changelog-forge"
+      },
+      "category": "documentation",
+      "license": "MIT"
+    }
+  ]
+}
