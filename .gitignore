@@ -1,0 +1,21 @@
+*.pyc
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+# Each plugin is its own repo; do not commit subrepos as embedded
+commit-narrator/
+pr-storyteller/
+test-gap/
+deps-doctor/
+env-lint/
+secret-guard/
+standup-gen/
+todo-harvest/
+flaky-detector/
+changelog-forge/
+
+# Codex sandbox artifacts
+argus-audit/
+canary*.txt
